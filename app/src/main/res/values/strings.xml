@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">LoginTemplate</string>
+
+
+    <string name="Login">Login Here</string>
+    <string name="cancel">Close</string>
+
+</resources>

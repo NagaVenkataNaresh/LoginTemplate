@@ -1,0 +1,55 @@
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        style="@style/Image_View"
+        android:src="@drawable/login"/>
+
+
+    <EditText
+        style="@style/Edit_Text_Email"
+        android:hint="Email Id"
+        android:id="@+id/email_id"/>
+    <EditText
+        style="@style/Edit_Text_Pass"
+        android:hint="Password"
+        android:id="@+id/password"/>
+    <TableLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp">
+        <TableRow>
+            <Button
+                android:background="@drawable/layoutshape"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:text="@string/Login"
+                android:textAllCaps="false"
+                android:textSize="18sp"
+                android:textColor="@color/Button_Color"
+                android:onClick="login"
+                android:textStyle="bold"/>
+
+            <Button
+                android:background="@drawable/layoutshape"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:text="@string/cancel"
+                android:textAllCaps="false"
+                android:textSize="18sp"
+                android:onClick="close"
+                android:textColor="@color/Button_Color"
+                android:textStyle="bold"/>
+
+
+
+        </TableRow>
+
+    </TableLayout>
+
+</LinearLayout>
